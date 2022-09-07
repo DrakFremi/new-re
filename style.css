@@ -1,0 +1,126 @@
+.re-1 {
+    position: absolute;
+    width: 1920px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+.text-list {
+    position: absolute;
+    width: 355px;
+    height: 16px;
+    left: 436px;
+    top: 14px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    list-style-type: none; /* Убираем исходные маркеры */
+}
+.phone-svg {
+    position: absolute;
+    left: 3%;
+    right: 8.17%;
+    top: 8.33%;
+    bottom: 8.33%;
+}
+.phone-svg:hover{
+    transition-duration: 0.5s;
+    transition-delay: 70ms;
+    background: #1F1F1F;
+}
+.text-phone:hover{
+    transition-duration: 0.5s;
+    transition-delay: 70ms;
+    background: #1F1F1F;
+}
+.text-phone::after {
+    content: "|";
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.text-list-jobs::after{
+    content: "|";
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav {
+    margin: 0 auto;
+}
+nav::before {
+    display: block;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    height: 44px;
+    list-style: none;
+    color: white;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.ic-srarp-log-in {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 1384px;
+    top: 15px;
+}
+.vector-2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: -15px;
+    top: 17px;
+}
+.vector-2:hover {
+    transition-duration: 0.5s;
+    transition-delay: 70ms;
+    background: #1F1F1F;
+}
+.log-in {
+    position: absolute;
+    width: 107px;
+    height: 16px;
+    left: 1408px;
+    top: -2px;
+}
+.text-log-in {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    /* gray */
+    color: #969696;
+}
+.text-log-in:hover {
+    width: 107px;
+    height: 16px;
+    transition-duration: 0.5s;
+    transition-delay: 70ms;
+    background: #1F1F1F;
+    z-index: -1;
+}
+.rectangle-2 {
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 44px;
+    background: #1F1F1F;
+}
+
