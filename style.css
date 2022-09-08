@@ -26,22 +26,21 @@
     top: 8.33%;
     bottom: 8.33%;
 }
-.phone-svg:hover{
+.phone-svg:hover {
     transition-duration: 0.5s;
     transition-delay: 70ms;
-    background: #1F1F1F;
+    background: #1f1f1f;
 }
-.text-phone:hover{
+.text-phone:hover {
     transition-duration: 0.5s;
     transition-delay: 70ms;
-    background: #1F1F1F;
+    background: #1f1f1f;
 }
-.text-phone::after {
-    content: "|";
+.line-s {
     margin-right: 10px;
     margin-left: 10px;
 }
-.text-list-jobs::after{
+.text-list-jobs::after {
     content: "|";
     margin-right: 10px;
     margin-left: 10px;
@@ -88,7 +87,7 @@ ul li a {
 .vector-2:hover {
     transition-duration: 0.5s;
     transition-delay: 70ms;
-    background: #1F1F1F;
+    background: #1f1f1f;
 }
 .log-in {
     position: absolute;
@@ -112,7 +111,7 @@ ul li a {
     height: 16px;
     transition-duration: 0.5s;
     transition-delay: 70ms;
-    background: #1F1F1F;
+    background: #1f1f1f;
     z-index: -1;
 }
 .re-2 {
@@ -121,6 +120,5 @@ ul li a {
     height: 80px;
     left: 0px;
     top: 44px;
-    background: #1F1F1F;
+    background: #1f1f1f;
 }
-
