@@ -120,5 +120,142 @@ ul li a {
     height: 80px;
     left: 0px;
     top: 44px;
+    background: #0f0f0f;
+}
+.porten-box {
+    position: absolute;
+    width: 136px;
+    height: 80px;
+    left: 450px;
+    top: 0px;
+}
+.porten-1 {
+    position: absolute;
+    width: 104px;
+    height: 29px;
+    left: 19px;
+    top: 25px;
+}
+.porten-box:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
     background: #1f1f1f;
+}
+.liked {
+    position: absolute;
+    width: 136px;
+    height: 80px;
+    left: 978px;
+    top: 44px;
+}
+.liked:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    background: #1f1f1f;
+}
+.liked-text {
+    position: absolute;
+    width: 96px;
+    height: 18px;
+    left: 20px;
+    top: 31px;
+
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+}
+.liked-text:hover {
+    color: #ffffff;
+    transition-duration: 0.5s;
+    transition-delay: 0.15ms;
+}
+
+.personal-area {
+    position: absolute;
+    width: 136px;
+    height: 80px;
+    left: 1114px;
+    top: 44px;
+}
+.personal-area:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    background: #1f1f1f;
+}
+.personal-area-text {
+    position: absolute;
+    width: 119px;
+    height: 18px;
+    left: 10px;
+    top: 31px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    /* gray */
+    color: #969696;
+}
+.personal-area-text:hover {
+    color: #ffffff;
+    transition-duration: 0.5s;
+    transition-delay: 0.15ms;
+}
+.settings {
+    position: absolute;
+    width: 136px;
+    height: 80px;
+    left: 1250px;
+    top: 44px;
+}
+.settings:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    background: #1f1f1f;
+}
+.settings-text {
+    position: absolute;
+    width: 78px;
+    height: 18px;
+    left: 30px;
+    top: 31px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    /* gray */
+    color: #969696;
+}
+.settings-text:hover {
+    color: #ffffff;
+    transition-duration: 0.5s;
+    transition-delay: 0.15ms;
+}
+.basket {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1431px;
+    top: 73px;
+}
+.search {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 1493px;
+    top: 74px;
+}
+.search-svg {
+    position: absolute;
+    left: 1111.49%;
+    right: 22.5%;
+    top: 12.49%;
+    bottom: 12.5%;
 }
