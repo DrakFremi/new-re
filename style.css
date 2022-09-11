@@ -247,15 +247,39 @@ ul li a {
 }
 .search {
     position: absolute;
-    width: 22px;
-    height: 22px;
-    left: 1493px;
-    top: 74px;
+    left: 1473px;
+    top: 65px;
+    margin: 0;
+    padding: 0;
 }
-.search-svg {
-    position: absolute;
-    left: 1111.49%;
-    right: 22.5%;
-    top: 12.49%;
-    bottom: 12.5%;
+
+.search-btn {
+    color: #1f1f1f;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.search-box:hover > .search-txt {
+    width: 150px;
+    padding: 10px;
+}
+.search-txt {
+    width: 60px;
+    height: 25px;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: #1f1f1f;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
 }
