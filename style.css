@@ -1,265 +1,46 @@
 .re-1 {
     position: absolute;
-    width: 1920px;
-    height: 44px;
-    left: 0px;
-    top: 0px;
-    background: #000000;
-}
-.text-list {
-    position: absolute;
-    width: 355px;
-    height: 16px;
-    left: 436px;
-    top: 14px;
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    list-style-type: none; /* Убираем исходные маркеры */
-}
-.phone:hover{
-    transition-duration: 0.5s;
-    transition-delay: 70ms;
-    background: #1f1f1f;
-}
-.phone-svg {
-    position: absolute;
-    left: 3%;
-    right: 8.17%;
-    top: 8.33%;
-    bottom: 8.33%;
-}
-.phone-svg:hover {
-    transition-duration: 0.5s;
-    transition-delay: 70ms;
-    background: #1f1f1f;
-}
-.text-phone:hover {
-    transition-duration: 0.5s;
-    transition-delay: 70ms;
-    background: #1f1f1f;
-}
-.line-s {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-.text-list-jobs::after {
-    content: "|";
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-nav {
-    margin: 0 auto;
-}
-nav::before {
-    display: block;
-    position: absolute;
+    width: 100%;
+    height: 5%;
     left: 0;
-    z-index: -1;
+    top: 0;
+    background-color: black;
 }
-ul {
+ol {
     margin: 0;
     padding: 0;
-    height: 44px;
+    height: 5%;
     list-style: none;
     color: white;
 }
-ul li {
+ol li {
     float: left;
 }
-ul li a {
+ol li a {
     color: white;
     display: block;
     text-decoration: none;
 }
-.ic-srarp-log-in {
+.text-list-box {
     position: absolute;
-    width: 14px;
-    height: 14px;
-    left: 1384px;
-    top: 15px;
-}
-.vector-2 {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    left: -15px;
-    top: 17px;
-}
-.vector-2:hover {
-    transition-duration: 0.5s;
-    transition-delay: 70ms;
-    background: #1f1f1f;
-}
-.log-in {
-    position: absolute;
-    width: 107px;
-    height: 16px;
-    left: 1408px;
-    top: -2px;
-}
-.text-log-in {
+    left: 15%;
+    top: 30%;
+    width: 40%;
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    text-align: right;
-    /* gray */
     color: #969696;
 }
-.text-log-in:hover {
-    width: 107px;
-    height: 16px;
-    transition-duration: 0.5s;
-    transition-delay: 70ms;
-    background: #1f1f1f;
-    z-index: -1;
-}
-.re-2 {
-    position: absolute;
-    width: 1920px;
-    height: 80px;
-    left: 0px;
-    top: 44px;
-    background: #0f0f0f;
-}
-.porten-box {
-    position: absolute;
-    width: 136px;
-    height: 80px;
-    left: 450px;
-    top: 0px;
-}
-.porten-1 {
-    position: absolute;
-    width: 104px;
-    height: 29px;
-    left: 19px;
-    top: 25px;
-}
-.porten-svg-1{
-    fill: #969696;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-}
-.porten-svg-1:hover{
-    fill: white;
-
-}
-.liked {
-    position: absolute;
-    width: 136px;
-    height: 80px;
-    left: 978px;
-    top: 44px;
-}
-.liked:hover {
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-    background: #1f1f1f;
-}
-.liked-text {
-    position: absolute;
-    width: 96px;
-    height: 18px;
-    left: 20px;
-    top: 31px;
-
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: #969696;
-}
-.liked-text:hover {
-    color: #ffffff;
-    transition-duration: 0.5s;
-    transition-delay: 0.15ms;
-}
-
-.personal-area {
-    position: absolute;
-    width: 136px;
-    height: 80px;
-    left: 1114px;
-    top: 44px;
-}
-.personal-area:hover {
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-    background: #1f1f1f;
-}
-.personal-area-text {
-    position: absolute;
-    width: 119px;
-    height: 18px;
-    left: 10px;
-    top: 31px;
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    /* gray */
-    color: #969696;
-}
-.personal-area-text:hover {
-    color: #ffffff;
-    transition-duration: 0.5s;
-    transition-delay: 0.15ms;
-}
-.settings {
-    position: absolute;
-    width: 136px;
-    height: 80px;
-    left: 1250px;
-    top: 44px;
-}
-.settings:hover {
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-    background: #1f1f1f;
-}
-.settings-text {
-    position: absolute;
-    width: 78px;
-    height: 18px;
-    left: 30px;
-    top: 31px;
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    /* gray */
-    color: #969696;
-}
-.settings-text:hover {
-    color: #ffffff;
-    transition-duration: 0.5s;
-    transition-delay: 0.15ms;
-}
-.basket {
-    position: absolute;
-    width: 22px;
-    height: 22px;
-    left: 1431px;
-    top: 73px;
-}
-
-.re-3 {
-    position: absolute;
-    width: 1920px;
-    height: 810px;
-    left: 0px;
-    top: 124px;
+.text-list::before{
+    content: ' | ';
     
+}
+.phone-svg{
+    position: absolute;
+    left: -3%;
+    right: 8.17%;
+    top: 3.33%;
+    bottom: 8.33%;
 }
