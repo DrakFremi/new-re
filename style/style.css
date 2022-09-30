@@ -1,7 +1,6 @@
 .container {
     max-width: 1920px;
 }
-
 .top-page {
     position: absolute;
     width: 100%;
@@ -10,7 +9,7 @@
     left: 0;
     top: 0;
     background-color: black;
-    min-width: 600px;
+    min-width: 670px;
 }
 body {
     background-color: red;
@@ -94,7 +93,7 @@ ol li a {
 }
 .nav-page {
     position: absolute;
-    min-width: 600px;
+    min-width: 670px;
     width: 100%;
     height: 80px;
     left: 0px;
@@ -122,8 +121,9 @@ ol li a {
     position: absolute;
     max-width: 355px;
     min-width: 300px;
-    left: 57%;
+    left: 56%;
 }
+
 .nav-data {
     margin: 0;
     padding: 0;
@@ -140,7 +140,7 @@ ul li {
     position: relative;
     padding: 10px 10px;
     text-align: center;
-    max-height: 80px;
+    max-height: 60px;
     transition-duration: 0.5s;
     transition-delay: 0.15ms;
 }
@@ -150,7 +150,7 @@ ul li {
     background: #1f1f1f;
 }
 .nav-list-text {
-display: flex;
+    display: block;
     height: 55px;
     min-height: 55px;
     padding-top: 17px;
