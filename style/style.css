@@ -118,16 +118,14 @@ ol li a {
     transition-delay: 0.1s;
 }
 .nav-box {
-    position: absolute;
-    max-width: 355px;
-    min-width: 300px;
-    left: 56%;
+    position: fixed;
+    max-width: 406px;
+    right: 21%;
 }
 
 .nav-data {
     margin: 0;
     padding: 0;
-    height: 80px;
 }
 ul li {
     display: block;
@@ -137,10 +135,8 @@ ul li {
     list-style: none;
 }
 .nav-list {
-    position: relative;
     padding: 10px 10px;
     text-align: center;
-    max-height: 60px;
     transition-duration: 0.5s;
     transition-delay: 0.15ms;
 }
@@ -151,14 +147,11 @@ ul li {
 }
 .nav-list-text {
     display: block;
-    height: 55px;
-    min-height: 55px;
+    height: 3.22em;
     padding-top: 17px;
     font-family: "PT Sans";
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 0.85em;
     text-transform: uppercase;
     transition-duration: 0.5s;
     transition-delay: 0.15ms;
