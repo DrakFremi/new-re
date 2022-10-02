@@ -14,7 +14,7 @@
 body {
     background-color: red;
 }
-ol {
+ul {
     margin: 0;
     padding: 0;
     height: 5%;
@@ -23,14 +23,14 @@ ol {
 a {
     color: #969696;
 }
-ol li {
+ul li {
     float: left;
 }
 a {
     text-decoration: none;
     color: #969696;
 }
-ol li a {
+ul li a {
     color: #969696;
     display: block;
 }
@@ -106,7 +106,7 @@ ol li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+    
 }
 .porten-svg-1 {
     fill: #969696;
