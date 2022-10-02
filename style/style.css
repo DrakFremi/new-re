@@ -1,3 +1,6 @@
+.container {
+    max-width: 1920px;
+}
 .top-page {
     position: absolute;
     width: 100%;
@@ -5,7 +8,7 @@
     height: 44px;
     left: 0;
     top: 0;
-    background-color: #000000;
+    background-color: black;
     min-width: 670px;
 }
 body {
@@ -88,62 +91,68 @@ ol li a {
     text-align: right;
     color: #969696;
 }
-.navbar {
+.nav-page {
+    position: absolute;
     min-width: 670px;
     width: 100%;
     height: 80px;
-    margin-top: 44px;
-    background-color: #1f1f1f;
+    left: 0px;
+    top: 44px;
+    background: #0f0f0f;
 }
-.navbar .container {
+.navigation{
+    width: 80%;
     height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20%;
-    margin-left: 17%;
+    background-color: aqua;
 }
-.navbar-menu {
+.porten-svg-1 {
+    fill: #969696;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.porten-svg-1:hover {
+    fill: white;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.nav-data {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: block;
+    float: left;
+    padding: 0px;
+    margin: 0px;
     list-style: none;
-    padding-left: 0;
-    margin-bottom: 0;
 }
-.navbar-menu li {
-    display: inline-block;
-}
-.navbar-menu li a {
-    display: inline-block;
-    padding: 10px;
-    height: inherit;
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: #969696;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-}
-.navbar-menu li a:hover {
-    color: white;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-    background: #454545;
-}
-.navbar-wrap {
-    display: flex;
-    flex-flow: row nowrap;
-}
-.navbar-brend {
-    font-family: "Post No Bills Jaffna";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
+.nav-list {
+    padding: 10px 10px;
+    text-align: center;
     transition-duration: 0.5s;
     transition-delay: 0.15ms;
 }
-.navbar-brend:hover {
+.nav-list:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    background: #1f1f1f;
+}
+.nav-list-text {
+    display: block;
+    height: 3.22em;
+    padding-top: 17px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+    transition-delay: 0.15ms;
+}
+.nav-list-text:hover {
     color: #ffffff;
     transition-duration: 0.5s;
     transition-delay: 0.15ms;
