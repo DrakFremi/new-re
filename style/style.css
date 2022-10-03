@@ -100,13 +100,12 @@ ul li a {
     top: 44px;
     background: #0f0f0f;
 }
-.navigation{
-    width: 80%;
+.nav-page .navigation {
+    width: 100%;
     height: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .porten-svg-1 {
     fill: #969696;
@@ -118,7 +117,12 @@ ul li a {
     transition-duration: 0.5s;
     transition-delay: 0.1s;
 }
-
+.porten-box{
+margin-right: 10%;
+}
+.nav-box{
+    margin-right: 15%;
+}
 .nav-data {
     margin: 0;
     padding: 0;
@@ -156,6 +160,10 @@ ul li {
     color: #ffffff;
     transition-duration: 0.5s;
     transition-delay: 0.15ms;
+}
+.navigation .shopping-cart-box{
+    margin-top: 7%;
+    margin-left: 105%;
 }
 .main-page-info {
     position: absolute;
