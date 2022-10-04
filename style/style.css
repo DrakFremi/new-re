@@ -1,5 +1,5 @@
 .container {
-    max-width: 1920px;
+    max-width: 100%;
 }
 .top-page {
     position: absolute;
@@ -8,13 +8,14 @@
     height: 44px;
     left: 0;
     top: 0;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     min-width: 670px;
 }
 body {
     background-color: red;
+    font-family: "PT Sans";
 }
-ul {
+.phone-list {
     margin: 0;
     padding: 0;
     height: 5%;
@@ -23,7 +24,7 @@ ul {
 a {
     color: #969696;
 }
-ul li {
+.phone-list li {
     float: left;
 }
 a {
@@ -93,174 +94,45 @@ ul li a {
 }
 .nav-page {
     position: absolute;
-    min-width: 670px;
+    top: 44px;
     width: 100%;
     height: 80px;
-    left: 0px;
-    top: 44px;
-    background: #0f0f0f;
+    background-color: #0f0f0f;
 }
-.nav-page .navigation {
-    width: 100%;
+.nav-page .container-nav-page {
     height: inherit;
     display: flex;
-    
+    justify-content: space-between;
     align-items: center;
 }
-.porten-svg-1 {
-    fill: #969696;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-}
-.porten-svg-1:hover {
-    fill: white;
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-}
-.porten-box{
-margin-right: 25%;
-}
-.nav-box{
-    margin-right: 20%;
-}
-.nav-data {
-    margin: 0;
-    padding: 0;
-}
-ul li {
-    display: block;
-    float: left;
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
 .nav-list {
-    padding: 10px 10px;
-    text-align: center;
-    transition-duration: 0.5s;
-    transition-delay: 0.15ms;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
 }
-.nav-list:hover {
-    transition-duration: 0.5s;
-    transition-delay: 0.1s;
-    background: #1f1f1f;
+.nav-text {
+    display: inline-block;
 }
-.nav-list-text {
-    display: block;
-    height: 3.22em;
-    padding-top: 17px;
-    font-family: "PT Sans";
-    font-style: normal;
-    font-size: 0.85em;
-    text-transform: uppercase;
-    transition-duration: 0.5s;
-    transition-delay: 0.15ms;
-}
-.nav-list-text:hover {
-    color: #ffffff;
-    transition-duration: 0.5s;
-    transition-delay: 0.15ms;
-}
-.navigation .shopping-cart-box{
-    margin-top: 7%;
-    margin-left: 105%;
-}
-.main-page-info {
-    position: absolute;
-    width: 100%;
-    min-width: 100%;
-    height: 810px;
-    left: 0px;
-    top: 124px;
-    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)),
-        url(/photo/Rectangle\ 3.png) no-repeat;
-    background-size: 100% 810px;
-}
-.porten-cpb-info {
-    position: absolute;
-    width: 17%;
-    height: 40%;
-    left: 42%;
-    top: 20%;
-}
-.porten-border {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.porten-svg-2 {
-    position: absolute;
-    width: 45%;
-    height: 30%;
-    left: 25%;
-    top: 30%;
-}
-.porten-line {
-    position: absolute;
-    width: 45%;
-    height: 1%;
-    left: 25%;
-    top: 54%;
-}
-.cpb {
-    position: absolute;
-    width: 80%;
-    height: 15%;
-    left: 8%;
-    top: 50%;
-    font-family: "PT Sans";
+.nav-text a {
+    display: inline-block;
+    padding: 10px;
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
-    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
     text-transform: uppercase;
-    color: #ffffff;
 }
-.lorem-text {
-    position: absolute;
-    width: 50%;
-    height: 15%;
-    left: 25%;
-    top: 70%;
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
+.navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    height: inherit;
 }
-.season-2020-21 {
-    position: absolute;
-    width: 50%;
-    height: 730px;
-    left: 0px;
-    top: 810px;
-    background: #000000;
+.porten-icon-1{
+    margin-left: 15%;
+    fill: #ffffff;
+    transition-duration: 0.5s;
+    transition-delay: 0.15ms;
 }
-.season-2020-21-text {
-    position: absolute;
-    width: 35%;
-    height: 39px;
-    left: 25%;
-    top: 93px;
-    font-family: "Playfair Display";
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-.line-season-2020-21 {
-    position: absolute;
-    width: 15%;
-    height: 0.2%;
-    left: 35%;
-    top: 25%;
-    border: 1px solid #ffffff;
-}
-.season-2020-21 > div {
-    background: #191b1c;
+.shopping-cart {
+    margin-left: 20px;
 }
