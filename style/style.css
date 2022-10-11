@@ -8,8 +8,8 @@ html {
 *:after {
     box-sizing: inherit;
 }
-body{
-    font-family: 'PT Sans';
+body {
+    font-family: "PT Sans";
 }
 body,
 h1,
@@ -35,7 +35,90 @@ img {
     max-width: 100%;
     height: auto;
 }
-.header-container{
+.header-page-register {
     display: flex;
-    
+    width: 100%;
+    height: 44px;
+    background-color: black;
+}
+.header-page-register .data-list {
+    height: inherit;
+    display: flex;
+}
+.header-page-data-list {
+    display: flex;
+    width: 80%;
+    margin-left: 15%;
+    justify-content: space-between;
+    align-items: center;
+    color: #969696;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.text-list::before {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.phone-link {
+    color: #969696;
+    text-decoration: none;
+}
+.phone-link:hover,
+.phone-linkr:focus {
+    text-decoration: underline;
+}
+.phone-icon {
+    padding-right: 5px;
+}
+.login-register {
+    margin-right: 15%;
+}
+.login-register-link {
+    color: #969696;
+    text-decoration: none;
+}
+.login-register-link:hover,
+.login-register-link:focus {
+    text-decoration: underline;
+}
+.login-register-icon {
+    padding-right: 2px;
+}
+.header-page-navigation {
+    width: 100%;
+    height: 80px;
+    top: 44px;
+    background-color: #0f0f0f;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.header-page-navigation .header-container {
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.nav-list {
+    display: inline-block;
+}
+.nav-list:hover {
+    background: rgb(75, 72, 72);
+}
+.text-nav {
+    display: inline-block;
+    text-decoration: none;
+    color: #969696;
+    padding: 10px;
+}
+.page-navigation {
+    display: flex;
+    flex-flow: row nowrap;
 }
