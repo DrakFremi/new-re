@@ -10,6 +10,7 @@ html {
 }
 body {
     font-family: "PT Sans";
+    background-color: red;
 }
 body,
 h1,
@@ -70,7 +71,7 @@ img {
     text-decoration: underline;
 }
 .phone-icon {
-    padding-right: 5px;
+    
 }
 .login-register {
     margin-right: 15%;
@@ -79,12 +80,13 @@ img {
     color: #969696;
     text-decoration: none;
 }
+.login-register-icon {
+    
+    right: 25.67%;
+}
 .login-register-link:hover,
 .login-register-link:focus {
     text-decoration: underline;
-}
-.login-register-icon {
-    padding-right: 2px;
 }
 .header-page-navigation {
     width: 100%;
@@ -97,10 +99,12 @@ img {
     text-transform: uppercase;
 }
 .header-page-navigation .header-container {
+    width: 62%;
     display: flex;
     height: inherit;
     justify-content: space-between;
     align-items: center;
+    margin-left: 16%;
 }
 .navigation {
     padding-left: 0;
@@ -117,6 +121,13 @@ img {
     text-decoration: none;
     color: #969696;
     padding: 10px;
+    height: 80px;
+    padding-top: 30px;
+}
+.text-nav:hover {
+    color: white;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
 }
 .page-navigation {
     display: flex;
