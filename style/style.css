@@ -71,7 +71,7 @@ img {
     text-decoration: underline;
 }
 .phone-icon {
-    
+    fill: #969696;
 }
 .login-register {
     margin-right: 15%;
@@ -81,7 +81,6 @@ img {
     text-decoration: none;
 }
 .login-register-icon {
-    
     right: 25.67%;
 }
 .login-register-link:hover,
@@ -98,6 +97,14 @@ img {
     line-height: 18px;
     text-transform: uppercase;
 }
+.logo-porten{
+    fill: #969696;
+}
+.logo-porten:hover{
+fill: #ffffff;
+transition-duration: 0.5s;
+transition-delay: 0.1s;
+}
 .header-page-navigation .header-container {
     width: 62%;
     display: flex;
@@ -112,6 +119,8 @@ img {
 }
 .nav-list {
     display: inline-block;
+    transition-duration: 0.5s;
+transition-delay: 0.1s;
 }
 .nav-list:hover {
     background: rgb(75, 72, 72);
