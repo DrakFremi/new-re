@@ -62,21 +62,29 @@ img {
     padding-left: 10px;
     padding-right: 10px;
 }
+.phone-humber {
+}
 .phone-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #969696;
     text-decoration: none;
+}
+.phone-icon {
+    padding-right: 5px;
 }
 .phone-link:hover,
 .phone-linkr:focus {
     text-decoration: underline;
 }
-.phone-icon {
-    fill: #969696;
-}
 .login-register {
     margin-right: 15%;
 }
 .login-register-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #969696;
     text-decoration: none;
 }
@@ -98,12 +106,14 @@ img {
     text-transform: uppercase;
 }
 .logo-porten{
-    fill: #969696;
+    fill: white;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
 }
-.logo-porten:hover{
-fill: #ffffff;
-transition-duration: 0.5s;
-transition-delay: 0.1s;
+.logo-porten :hover {
+    fill: white;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
 }
 .header-page-navigation .header-container {
     width: 62%;
@@ -120,7 +130,7 @@ transition-delay: 0.1s;
 .nav-list {
     display: inline-block;
     transition-duration: 0.5s;
-transition-delay: 0.1s;
+    transition-delay: 0.1s;
 }
 .nav-list:hover {
     background: rgb(75, 72, 72);
