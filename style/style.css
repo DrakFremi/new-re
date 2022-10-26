@@ -213,7 +213,7 @@ img {
     text-align: center;
     color: #ffffff;
     padding-top: 600px;
-    max-height: 200px;
+    min-height: 200px;
 }
 .lorem-text {
     padding-right: 20%;
@@ -238,10 +238,9 @@ img {
 .text-season {
     display: block;
     text-align: center;
-    width: 300px;
+    width: 1040px;
     height: 50px;
-    margin-top: 52px;
-    margin-left: 332px;
+    margin-top: 92px;
 }
 .season-2020-21-louis-xvi-athos {
     font-family: "Playfair Display";
@@ -252,23 +251,24 @@ img {
     color: #ffffff;
 }
 .container-watch {
-    display: flex;
-    max-width: 1040px;
-    padding-left: 80px;
+    display: grid;
+    width: 1040px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .louis-xvi-athos {
-    margin-left: 20px;
+    margin-left: 40px;
     align-items: center;
     width: 260px;
     height: 325px;
     background: #191b1c;
 }
 .watch-62050-1 {
-    padding-top: 25px;
+    padding-top: 55px;
     padding-left: 23px;
     padding-right: 22px;
-    padding-bottom: 89px;
+    padding-bottom: 56px;
 }
+
 .model {
     font-family: "Playfair Display";
     font-size: 18px;
@@ -283,7 +283,8 @@ img {
 }
 .new-collection {
     background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(/photo/re-5.png), #000000;
-    width: 960px;
+    width: 880px;
+    height: 730px;
     text-align: center;
     align-items: center;
 }
@@ -295,10 +296,10 @@ img {
     text-transform: uppercase;
     color: #ffffff;
 }
-.catalog{
+.catalog {
     padding-top: 20px;
 }
-.catalog-link {
+.catalog-button {
     transition-duration: 0.5s;
     transition-delay: 0.1s;
     color: #ffffff;
@@ -311,15 +312,136 @@ img {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.catalog-link:hover {
+.catalog-button:hover {
     transition-duration: 0.5s;
     transition-delay: 0.1s;
     color: #000000;
     background-color: #ffffff;
 }
-.catalog-link:active {
+.catalog-button:active {
     transition-duration: 0.5s;
     transition-delay: 0.1s;
     color: #000000;
     background-color: #969696;
+}
+.section-photo-collection {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    height: 600px;
+}
+.photo-section {
+    width: 880px;
+    height: 600px;
+    background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(/photo/Rectangle\ 9.png),
+        #000000;
+}
+.section-collection {
+    width: 1040px;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+}
+.collection-2018 {
+    margin-top: 100px;
+    width: 1040px;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.under-line-collection-2018 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.lorem-2 {
+    margin-left: 285px;
+    width: 471px;
+    height: 173px;
+    margin-bottom: 73px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+.button-view-collection {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px double rgb(255, 255, 255);
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.button-view-collection:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+}
+.button-view-collection:active {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    color: #000000;
+    background-color: #969696;
+}
+.aew-arrivals {
+    display: grid;
+    width: 1920px;
+    height: 1289px;
+}
+.box-aew-arrivals {
+    width: 1920px;
+    text-align: center;
+}
+.arrivals-aew {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    width: 1920px;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.container-watch-2 {
+    display: grid;
+    padding-left: 340px;
+    width: 1040px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.louis-xvi-athos-2 {
+    margin-left: 40px;
+    width: 260px;
+    height: 325px;
+    background: #191b1c;
+}
+.watch-62050-1-2 {
+    padding-top: 55px;
+    padding-left: 23px;
+    padding-right: 22px;
+    padding-bottom: 56px;
+}
+
+.model-2 {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+.price-2 {
+    font-family: "Playfair Display";
+    font-size: 16px;
+    line-height: 19px;
+    color: #d0d0d0;
 }
