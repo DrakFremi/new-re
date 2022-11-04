@@ -421,7 +421,6 @@ img {
     padding-left: 340px;
     width: 1040px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
 }
 .louis-xvi-athos-2 {
     margin-left: 40px;
@@ -477,23 +476,25 @@ img {
     padding-left: 30px;
 }
 .about-the-store-nategories-newsletter {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
     max-width: 1920px;
     width: 100%;
     height: 400px;
     background: linear-gradient(0deg, rgba(15, 15, 15, 0), rgba(15, 15, 15, 0.85)), url(/photo/Rectangle\ 15.png),
         #c4c4c4;
 }
-.about-the-store {
-
-    width: 340px;
-    height: 300px;
-    padding-top: 80px;
+.the-store {
+    display: flex;
+width: 1240px;
+height: 400px;
+margin-left: 305px;
+}
+.about-the-store{
+    width: 500px;
+    height: 400px;
 }
 .about-the-store-text {
-    width: 151px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    margin-bottom: 40px;
     font-family: "Playfair Display";
     font-size: 24px;
     line-height: 28px;
@@ -501,8 +502,7 @@ img {
     color: #ffffff;
 }
 .lorem-3 {
-    width: 350px;
-    height: 147px;
+    width: 400px;
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
@@ -510,17 +510,27 @@ img {
     line-height: 150%;
     color: #ffffff;
 }
-.nategories {
-    width: 340px;
-    height: 300px;
+
+.nategories{
+    width: 500px;
+    height: 400px;
 }
-.box{
-    width: 370px;
-    height: 150px;
-    text-align: center;
-    
+.nategories-text{
+    padding-top: 80px;
+    margin-bottom: 40px;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
-.box a{
+.box {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 1em;
+
+}
+.box a {
     padding: 10px 20px;
     background: black;
     color: #d0d0d0;
