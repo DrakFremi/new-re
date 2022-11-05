@@ -35,7 +35,9 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+main {
+    max-width: 1900px;
+}
 .header-page-register {
     display: flex;
     width: 100%;
@@ -97,6 +99,7 @@ img {
     padding-right: 5px;
 }
 .header-page-navigation {
+    max-width: 1900px;
     width: 100%;
     height: 80px;
     top: 44px;
@@ -112,7 +115,7 @@ img {
     transition-delay: 0.1s;
 }
 .header-page-navigation .header-container {
-    max-width: 1920px;
+    max-width: 1900px;
     width: 67%;
     display: flex;
     height: inherit;
@@ -165,14 +168,22 @@ img {
     transition-delay: 0.1s;
 }
 .main-page-presentation {
-    max-width: 1920px;
+    max-width: 1900px;
     width: 100%;
     height: 810px;
+    padding-top: 253px;
     background: linear-gradient(0deg, rgba(15, 15, 15, 0.001), rgba(15, 15, 15, 0.5)), url(/photo/Rectangle\ 3.png);
     background-repeat: no-repeat;
+    text-align: center;
 }
 .presentation {
-    text-align: center;
+    margin: 0 auto;
+    width: 312px;
+    height: 318px;
+    border: 4px solid #ffffff;
+    padding: 80px 60px;
+    padding-bottom: 111px;
+    margin-bottom: 74px;
 }
 .porten-text {
     font-family: "Post No Bills Jaffna";
@@ -180,16 +191,9 @@ img {
     font-size: 64px;
     line-height: 96px;
     color: #ffffff;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .line-under-poren {
-    position: absolute;
-    top: 49%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
 }
 .spb {
     font-family: "PT Sans";
@@ -198,26 +202,15 @@ img {
     line-height: 28px;
     text-transform: uppercase;
     color: #ffffff;
-    position: absolute;
-    top: 51.55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.borger-porten-text {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .lorem {
     text-align: center;
     color: #ffffff;
-    padding-top: 600px;
-    min-height: 200px;
 }
 .lorem-text {
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 25%;
+    padding-left: 25%;
+    max-height: 144px;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -225,7 +218,7 @@ img {
 }
 .main-page-season-2020-21-new-collection {
     display: flex;
-    max-width: 1920px;
+    min-width: 1900px;
     width: 100%;
     height: 730px;
 }
@@ -327,7 +320,7 @@ img {
 }
 .section-photo-collection {
     display: flex;
-    max-width: 1920px;
+    max-width: 1900px;
     width: 100%;
     height: 600px;
 }
@@ -397,18 +390,18 @@ img {
 }
 .aew-arrivals {
     display: grid;
-    width: 1920px;
+    width: 1900px;
     height: 1289px;
 }
 .box-aew-arrivals {
-    width: 1920px;
+    width: 1900px;
     text-align: center;
     background-color: #000000;
 }
 .arrivals-aew {
     margin-top: 120px;
     margin-bottom: 40px;
-    width: 1920px;
+    width: 1900px;
     font-family: "Playfair Display";
     font-size: 36px;
     line-height: 42px;
@@ -448,7 +441,8 @@ img {
     color: #d0d0d0;
 }
 .our-brands {
-    max-width: 1920px;
+    padding-top: 60px;
+    max-width: 1900px;
     width: 100%;
     height: 362px;
     background-color: #0f0f0f;
@@ -465,7 +459,7 @@ img {
 }
 .brands {
     display: flex;
-    max-width: 1920px;
+    max-width: 1900px;
     width: 100%;
     padding-top: 98px;
     padding-left: 405px;
@@ -473,10 +467,11 @@ img {
     padding-bottom: 80px;
 }
 .img-brands {
+    max-width: 286px;
     padding-left: 30px;
 }
 .about-the-store-nategories-newsletter {
-    max-width: 1920px;
+    max-width: 1900px;
     width: 100%;
     height: 400px;
     background: linear-gradient(0deg, rgba(15, 15, 15, 0), rgba(15, 15, 15, 0.85)), url(/photo/Rectangle\ 15.png),
@@ -484,12 +479,12 @@ img {
 }
 .the-store {
     display: flex;
-width: 1240px;
-height: 400px;
-margin-left: 305px;
+    width: 1240px;
+    height: 400px;
+    margin-left: 305px;
 }
-.about-the-store{
-    width: 500px;
+.about-the-store {
+    width: 450px;
     height: 400px;
 }
 .about-the-store-text {
@@ -502,7 +497,7 @@ margin-left: 305px;
     color: #ffffff;
 }
 .lorem-3 {
-    width: 400px;
+    width: 370px;
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
@@ -511,11 +506,12 @@ margin-left: 305px;
     color: #ffffff;
 }
 
-.nategories{
+.nategories {
     width: 500px;
     height: 400px;
 }
-.nategories-text{
+.nategories-text {
+    padding-left: 20px;
     padding-top: 80px;
     margin-bottom: 40px;
     font-family: "Playfair Display";
@@ -525,18 +521,84 @@ margin-left: 305px;
     color: #ffffff;
 }
 .box {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 1em;
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
 }
 .box a {
     padding: 10px 20px;
     background: black;
-    color: #d0d0d0;
+    color: #ffffff;
     font-family: "PT Sans";
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     text-decoration: none;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.box a:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+}
+.box a:active {
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    color: #000000;
+    background-color: #969696;
+}
+.newsletter-text {
+    padding-top: 80px;
+    margin-bottom: 40px;
+    font-family: "Playfair Display";
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.lorem-4 {
+    margin-bottom: 37px;
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ffffff;
+}
+.search{
+    background: rgba(129, 127, 127, 0.4);
+    color: #ffffff;
+    border: none;
+    width: 210px;
+    height: 42px;
+    padding-left: 14px;
+    margin-top: 38px;
+}
+.submit{
+    padding: 10px 20px;
+    background: black;
+    color: #d0d0d0;
+    font-family: 'PT Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+.submit:hover{
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+}
+.submit:active{
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    color: #000000;
+    background-color: #969696;
 }
